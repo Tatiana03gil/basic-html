@@ -1,27 +1,152 @@
+
 * {
     margin: 0;
     padding: 0;
 }
 
+.center {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+.top {
+    background-color: #fff;
+}
+
 .header {
     padding-top: 40px;
     padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head_logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.head_logo_img {
+    width: 35px;
+    height: 40px;
+}
+
+.logo_name {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.part {
+    color: #F25822;
+}
+
+.head_menu {
+    display: flex;
+    gap: 35px;
+}
+
+.orange_link {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu_link {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
 
 .top_content {
     margin-top: 43px;
     margin-bottom: 162px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.top_info {
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
     margin-bottom: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .top_buttons {
     margin-top: 37px;
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.top_button {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button_link {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_img {
+    width: 544.814px;
+    height: 374.843px;
 }
 
 .top_logo {
     padding-top: 97px;
     padding-bottom: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.logo_img {
+    width: 160px;
+    height: 50px;
 }
